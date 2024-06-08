@@ -1,0 +1,12 @@
+string length funtion for php 
+strlen() 
+word count in string
+echo str_word_count("Hello world!"); // outputs 2
+Reverse the string "Hello world!":
+<?php
+echo strrev("Hello world!"); // outputs !dlrow olleH
+?>
+Replace the text "world" with "Dolly":
+<?php
+echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+?>
